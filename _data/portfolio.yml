@@ -1,0 +1,10 @@
+- banner: banner.tuymn.png
+  title: "Tuymn para iPhone y Android"
+  description: >
+    <p>Tuymn es una aplicación en desarrollo que estará disponible para iPhone y para Android. Tuymn será un himnario
+    digital con himnarios de diferentes confesiones cristianas. Incluirá algunas características únicas como
+    sincronización en la nube, marcar himnos favoritos, escuchar su música, marcar estrófas favoritas y compartirlas en
+    redes sociales.</p>
+    <p>Tuymn será OpenSource y estará muy pronto disponible para su descarga gratuita.</p>
+  url: "https://github.com/napden/tuymn-mobile"
+  call-to-action: Más información
