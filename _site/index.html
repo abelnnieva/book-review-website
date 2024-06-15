@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Abel Nieva &mdash; Front End Software Developer</title>
+
+    <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//chart.apis.google.com" />
+
+    <!-- Who did this page -->
+    <link
+      type="text/plain"
+      rel="author"
+      href="/book-review-website/humans.txt"
+    />
+    <meta name="author" content="Abel Nieva" />
+
+    <!-- Stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Source+Sans+Pro:400,400i,600,600i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/book-review-website/assets/css/main.css" />
+
+    <!-- Meta-Tagging -->
+
+    <meta
+      name="description"
+      content="Desarrollador de software enfocado en JavaScript y Angular, apasionado del código limpio y la usabilidad. Escribo sobre quién soy, qué pienso y las lecturas ..."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="shortcut icon" href="/book-review-website/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="/book-review-website/apple-touch-icon.jpg"
+    />
+    <meta name="apple-mobile-web-app-title" content="Abel Nieva" />
+    <meta name="application-name" content="Abel Nieva" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@abelnieva" />
+    <meta
+      name="twitter:domain"
+      content="http://localhost:4000/book-review-website/"
+    />
+    <meta name="twitter:creator" content="@abelnieva" />
+    <meta
+      name="twitter:title"
+      content="Abel Nieva &mdash; Front End Software Developer"
+    />
+
+    <meta
+      name="twitter:image"
+      content="http://localhost:4000/book-review-website/apple-touch-icon.jpg"
+    />
+    <meta
+      name="twitter:description"
+      content="Desarrollador de software enfocado en JavaScript y Angular, apasionado del código limpio y la usabilidad. Escribo sobre quién soy, qué pienso y las lecturas ..."
+    />
+
+    <link
+      rel="image_src"
+      href="http://localhost:4000/book-review-website/apple-touch-icon.jpg"
+    />
+    <link rel="canonical" href="http://localhost:4000/book-review-website/" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Abel Nieva"
+      href="/book-review-website/feed.xml"
+    />
+    <link
+      rel="index"
+      title="Abel Nieva &mdash; Front End Software Developer"
+      href="/book-review-website/"
+    />
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <header
+      class="c-page-head"
+      role="banner"
+      itemscope
+      itemtype="http://schema.org/WPHeader"
+    >
+      <div class="o-wrapper o-wrapper--large">
+        <figure
+          class="o-flag c-author"
+          itemprop="image"
+          itemscope
+          itemtype="http://schema.org/ImageObject"
+        >
+          <div class="o-flag__img c-author__photo">
+            <a href="/book-review-website">
+              <img
+                src="/book-review-website/assets/img/abelnieva.avatar.jpg"
+                srcset="
+                  /book-review-website/assets/img/abelnieva.avatar.jpg    1x,
+                  /book-review-website/assets/img/abelnieva.avatar@2x.jpg 2x
+                "
+                alt="Abel Nieva foto de perfil"
+                width="120"
+                height="120"
+                itemprop="contentUrl"
+              />
+            </a>
+          </div>
+
+          <figcaption class="o-flag__body c-author__bio" itemprop="description">
+            ¡Hola! Soy Abel Nieva, un desarrollador de software enfocado en
+            JavaScript y Angular, apasionado del código limpio y la usabilidad.
+            Escribo sobre quién soy, qué pienso y las lecturas que hago.
+          </figcaption>
+        </figure>
+        <!-- /c-author -->
+      </div>
+    </header>
+    <!-- /c-page-head -->
+
+    <nav
+      class="c-site-nav"
+      role="navigation"
+      itemscope
+      itemtype="http://schema.org/SiteNavigationElement"
+    >
+      <div class="o-wrapper o-wrapper--large">
+        <ul class="o-pack c-site-nav__list">
+          <li class="o-pack__item c-site-nav__item">
+            <a
+              class="c-site-nav__link"
+              href="/book-review-website/sobre-mi/"
+              itemprop="name"
+              >Sobre mí</a
+            >
+          </li>
+
+          <li class="o-pack__item c-site-nav__item">
+            <a
+              class="c-site-nav__link"
+              href="/book-review-website/libros/"
+              itemprop="name"
+              >Libros</a
+            >
+          </li>
+
+          <li class="o-pack__item c-site-nav__item">
+            <a
+              class="c-site-nav__link"
+              href="/book-review-website/ensayos/"
+              itemprop="name"
+              >Ensayos</a
+            >
+          </li>
+
+          <li class="o-pack__item c-site-nav__item">
+            <a
+              class="c-site-nav__link"
+              href="/book-review-website/proyectos/"
+              itemprop="name"
+              >Proyectos</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /c-site-nav -->
+
+    <main
+      class="o-wrapper o-wrapper--large"
+      role="main"
+      itemprop="mainContentOfPage"
+      itemscope
+      itemtype="http://schema.org/Blog"
+    >
+      <section
+        class="c-notebook"
+        itemscope=""
+        itemtype="http://schema.org/ItemList"
+      >
+        <h1 class="c-notebook__headline" itemprop="name">
+          Publicaciones recientes
+        </h1>
+
+        <ul class="o-list-bare c-notebook__list">
+          <li
+            class="c-notebook__item"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <article
+              itemprop="item"
+              itemscope=""
+              itemtype="http://schema.org/BlogPosting"
+            >
+              <header class="c-post-head">
+                <time
+                  datetime="2016-10-26T00:00:00+01:00"
+                  class="c-date"
+                  itemprop="datePublished"
+                >
+                  Octubre 26, 2016
+                </time>
+
+                <h2 itemprop="name headline" class="u-margin-bottom-none">
+                  <a href="/book-review-website/ensayos/mi-primer-paso/"
+                    >Mi primer paso y por qué decidí empezar a escribir</a
+                  >
+                </h2>
+
+                <link
+                  href="/book-review-website/ensayos/mi-primer-paso/"
+                  itemprop="url"
+                />
+              </header>
+              <!-- /c-post-head -->
+
+              <p class="c-notebook__excerpt">
+                Según me cuenta mi madre, empecé a andar a los diez meses de
+                edad cuando estaba sentado al lado de mi carrito de bebé. Me
+                agarré fuertemente de él, me puse de pie de un tirón, y empecé a
+                dar espontanemente mis primeros pasos.
+              </p>
+            </article>
+          </li>
+        </ul>
+
+        <div class="c-see-more">
+          <a
+            class="c-btn c-btn--primary c-btn--ghost"
+            href="/book-review-website/ensayos/"
+            >Ver más</a
+          >
+
+          <link href="/book-review-website/ensayos/" itemprop="url" />
+        </div>
+        <!-- /c-see-more -->
+      </section>
+      <!-- /c-notebook -->
+
+      <section
+        class="c-bookcase"
+        itemscope=""
+        itemtype="http://schema.org/ItemList"
+      >
+        <h1 class="c-bookcase__headline" itemprop="name">Lista de lectura</h1>
+
+        <ul class="o-layout c-bookcase__list">
+          <!--
+   -->
+          <li
+            class="o-layout__item c-bookcase__item u-1/3@tablet u-1/1@mobile"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <article
+              class="o-block c-book"
+              itemprop="item"
+              itemscope=""
+              itemtype="http://schema.org/BlogPosting"
+            >
+              <a
+                class="c-book__link"
+                href="/book-review-website/libros/su-mejor-vida-ahora/"
+              >
+                <div class="o-block__img c-book__cover">
+                  <img
+                    src="/book-review-website/assets/img/books/su-mejor-vida-ahora.jpg"
+                    srcset="
+                      /book-review-website/assets/img/books/su-mejor-vida-ahora.jpg    1x,
+                      /book-review-website/assets/img/books/su-mejor-vida-ahora@2x.jpg 2x
+                    "
+                    width="auto"
+                    height="200"
+                    itemprop="thumbnail"
+                  />
+                </div>
+
+                <div class="o-block__body">
+                  <div
+                    class="c-rating"
+                    title="No me gustó"
+                    itemscope=""
+                    itemtype="http://schema.org/AggregateRating"
+                  >
+                    <span class="c-icon c-icon--star-full"></span>
+
+                    <span class="c-icon c-icon--star-empty"></span>
+
+                    <span class="c-icon c-icon--star-empty"></span>
+
+                    <span class="c-icon c-icon--star-empty"></span>
+
+                    <span class="c-icon c-icon--star-empty"></span>
+
+                    <span class="u-hidden-visually" itemprop="ratingValue"
+                      >1</span
+                    >
+                  </div>
+                  <!-- /c-rating -->
+
+                  <h4 class="c-book__headline" itemprop="name headline">
+                    Su mejor vida no es ahora
+                  </h4>
+
+                  <p class="c-book__excerpt" itemprop="description">
+                    El libro de un autor malo o pésimo no suelen llegar a mis
+                    manos, pero ocasionalmente algunos libros lo consiguen.
+                  </p>
+                </div>
+              </a>
+
+              <link
+                href="/book-review-website/libros/su-mejor-vida-ahora/"
+                itemprop="url"
+              />
+            </article>
+            <!-- /c-book -->
+          </li>
+          <!--
+ -->
+        </ul>
+
+        <div class="c-see-more">
+          <a
+            class="c-btn c-btn--primary c-btn--ghost"
+            href="/book-review-website/libros/"
+            >Ver más</a
+          >
+
+          <link href="/book-review-website/libros/" itemprop="url" />
+        </div>
+        <!-- /c-see-more -->
+      </section>
+      <!-- /c-bookcase -->
+    </main>
+
+    <footer
+      class="c-page-foot"
+      role="contentinfo"
+      itemscope
+      itemtype="http://schema.org/WPFooter"
+    >
+      <div class="o-wrapper o-wrapper--large">
+        <ul
+          class="o-list-inline c-page-foot__list"
+          role="navigation"
+          itemscope
+          itemtype="http://schema.org/SiteNavigationElement"
+        >
+          <li class="o-list-inline__item c-page-foot__item">
+            <a
+              class="c-social-media"
+              title="Twitter"
+              href="https://twitter.com/abelnieva"
+              itemprop="name"
+            >
+              <div class="c-icon c-icon--twitter"></div> </a
+            ><!-- /c-social-media -->
+          </li>
+
+          <li class="o-list-inline__item c-page-foot__item">
+            <a
+              class="c-social-media"
+              title="GitHub"
+              href="https://github.com/abel-nieva"
+              itemprop="name"
+            >
+              <div class="c-icon c-icon--github"></div> </a
+            ><!-- /c-social-media -->
+          </li>
+
+          <li class="o-list-inline__item c-page-foot__item">
+            <a
+              class="c-social-media"
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/abel-nieva"
+              itemprop="name"
+            >
+              <div class="c-icon c-icon--linkedin"></div> </a
+            ><!-- /c-social-media -->
+          </li>
+        </ul>
+
+        <p class="c-page-foot__about" itemprop="about">
+          Este sitio web es propulsado por
+          <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y alojado
+          en <a href="https://github.com/" target="_blank">GitHub</a>.
+          <a href="/book-review-website/feed.xml"
+            >Suscríbete al feed RSS de artículos</a
+          >.
+        </p>
+
+        <p class="c-page-foot__copyright" itemprop="copyrightHolder">
+          Copyright © <span itemprop="copyrightYear">2016-2017</span> Abel
+          Nieva. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- /c-page-foot -->
+  </body>
+</html>

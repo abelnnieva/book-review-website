@@ -19,7 +19,7 @@ email: abel@abelnieva.com
 description: > # this means to ignore newlines until "baseurl:"
   Desarrollador de software enfocado en JavaScript y Angular, apasionado del código limpio y la usabilidad. Escribo
   sobre quién soy, qué pienso y las lecturas que hago.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/book-review-website" # the subpath of your site, e.g. /blog
 url: "https://abelnieva.com" # the base hostname & protocol for your site
 enforce_ssl: abelnieva.com
 twitter_username: abelnieva
@@ -38,13 +38,13 @@ collections:
 # Site content
 about: >
   Este sitio web es propulsado por <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y alojado en
-  <a href="https://github.com/" target="_blank">GitHub</a>. <a href="/feed.xml">Suscríbete al feed RSS de
+  <a href="https://github.com/" target="_blank">GitHub</a>. <a href="/book-review-website/feed.xml">Suscríbete al feed RSS de
   artículos</a>.
 copyright: Copyright © <span itemprop="copyrightYear">2016-2017</span> Abel Nieva. Todos los derechos reservados.
 author:
   name: Abel Nieva
-  avatar: /assets/img/abelnieva.avatar.jpg
-  avatar2x: /assets/img/abelnieva.avatar@2x.jpg
+  avatar: /book-review-website/assets/img/abelnieva.avatar.jpg
+  avatar2x: /book-review-website/assets/img/abelnieva.avatar@2x.jpg
   avatar_alt: Abel Nieva foto de perfil
   bio: >
     ¡Hola! Soy Abel Nieva, un desarrollador de software enfocado en JavaScript y Angular, apasionado del código limpio y

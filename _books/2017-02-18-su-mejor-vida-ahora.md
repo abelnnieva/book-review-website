@@ -2,8 +2,8 @@
 layout: post
 title: "Su mejor vida no es ahora"
 date: 2017-02-18
-image: /assets/img/books/su-mejor-vida-ahora.jpg
-image2x: /assets/img/books/su-mejor-vida-ahora@2x.jpg
+image: /book-review-website/assets/img/books/su-mejor-vida-ahora.jpg
+image2x: /book-review-website/assets/img/books/su-mejor-vida-ahora@2x.jpg
 book-details:
   rating: 1
   title: "Su mejor vida ahora: Siete pasos para vivir a su máximo potencial"
@@ -14,12 +14,12 @@ book-details:
   original-title: "Your Best Life Now: 7 Steps to Living at Your Full Potential"
   ISBN: "1591854806 (ISBN13: 9781591854807)"
   edition-language: Español
-permalink: /libros/:title/
+permalink: /book-review-website/libros/:title/
 ---
 
 El libro de un autor malo o pésimo no suelen llegar a mis manos, pero ocasionalmente algunos libros lo consiguen.<!--more--> Es el caso que quiero comentar hoy.
 
-A finales de 2014, un autor cristiano publicó un libro que fue éxito de ventas número 1 del New York Times por más de 200 semanas y que ha vendido más de 4 millones de copias. El autor se llama Joel Osten y el libro se titula *Su mejor vida ahora: Siete pasos para vivir a su máximo potencial*. En él se presentan siete pasos que supuestamente nos conducirán a una vida de victoria, gozo y satisfacción para siempre.
+A finales de 2014, un autor cristiano publicó un libro que fue éxito de ventas número 1 del New York Times por más de 200 semanas y que ha vendido más de 4 millones de copias. El autor se llama Joel Osten y el libro se titula _Su mejor vida ahora: Siete pasos para vivir a su máximo potencial_. En él se presentan siete pasos que supuestamente nos conducirán a una vida de victoria, gozo y satisfacción para siempre.
 
 > Tiene que aprender a rechazar esos pensamientos negativos y verse como Dios lo ve: como un ganador, un vencedor. Él ve que usted bien puede. Si usted quiere que las circunstancias de su vida mejoren, primero tiene que ver que cambian con sus «ojos de la fe». Tiene que verse como alguien contento, realizado y exitoso, viviendo una vida de vencedor.
 

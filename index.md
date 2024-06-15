@@ -1,8 +1,8 @@
 ---
-layout      : default
-type        : landing
+layout: default
+type: landing
 ---
 
-{% include notebook.html title="Publicaciones recientes" limit=3 permalink="/ensayos/" see-more="Ver más" %}
+{% include notebook.html title="Publicaciones recientes" limit=3 permalink="/book-review-website/ensayos/" see-more="Ver más" %}
 
-{% include bookcase.html title="Lista de lectura" limit=3 permalink="/libros/" see-more="Ver más" %}
+{% include bookcase.html title="Lista de lectura" limit=3 permalink="/book-review-website/libros/" see-more="Ver más" %}

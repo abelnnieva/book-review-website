@@ -2,7 +2,7 @@
 layout: post
 title: Mi primer paso y por qué decidí empezar a escribir
 date: 2016-10-26
-permalink: /ensayos/:title/
+permalink: /book-review-website/ensayos/:title/
 ---
 
 Según me cuenta mi madre, empecé a andar a los diez meses de edad cuando estaba sentado al lado de mi carrito de bebé. Me agarré fuertemente de él, me puse de pie de un tirón, y empecé a dar espontanemente mis primeros pasos.<!--more--> Al instante, ella se ubicó delante de mí —como a un metro de distancia—, y lentamente conseguí llegar hasta sus brazos. Seguro que aquello resultó muy enternecedor para ella, de hecho, me confesó que cada detalle permanece indeleble en su memoria hasta hoy.
