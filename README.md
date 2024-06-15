@@ -1,6 +1,6 @@
-# personal-blog
+# book-review-website
 
-Personal blog for a book reviewer, built with Jekyll and using the [alna-jekyll-theme](https://github.com/abelnnieva/alna-jekyll-theme) as the default theme.
+Sample project for a book reviewer’s website, built with Jekyll and using the [alna-jekyll-theme](https://github.com/abelnnieva/alna-jekyll-theme) as the default theme.
 
 ## Getting started
 
